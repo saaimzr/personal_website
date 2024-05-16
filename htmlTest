@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saaim Raad - Electrical Engineering Student</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #0073e6;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Saaim Raad</h1>
+        <p>Electrical Engineering Undergraduate Student</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Saaim Raad, an electrical engineering undergraduate student heading into my second year at the University of Toronto. I have a deep passion for artificial intelligence, machine learning, and electrical technology. My goal is to leverage these interests to innovate and contribute to the field of electrical engineering.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>CHIP-8 Video Game Emulator:</strong> Developed a fully functioning CHIP-8 emulator focusing on memory management and graphical display handling.</li>
+                <li><strong>Fire Detection Robot:</strong> Created a fire-detection robot using Arduino and various hardware components, achieving 96% accuracy in identifying simulated fires.</li>
+                <li><strong>‘Spot It’ Game:</strong> Built an interactive visual game with an integrated GUI using Java, incorporating randomization algorithms for diverse visual challenges.</li>
+            </ul>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>You can download my resume <a href="path_to_resume.pdf" target="_blank">here</a>.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:saaim.raad@mail.utoronto.ca">saaim.raad@mail.utoronto.ca</a></p>
+            <p>Phone: 647-609-7944</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/saaim-raad" target="_blank">linkedin.com/in/saaim-raad</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Saaim Raad. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
